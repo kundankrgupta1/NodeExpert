@@ -8,15 +8,15 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://raw.githubusercontent.com/kundankrgupta1/NodeExpert/main/src/assets/screenshots/hero.png" alt="project-screenshot" width="500" height="350/">
+<img src="https://raw.githubusercontent.com/kundankrgupta1/NodeExpert/main/src/assets/screenshots/hero.png" alt="project-screenshot" width="700" height="350/">
 
-<img src="https://raw.githubusercontent.com/kundankrgupta1/NodeExpert/main/src/assets/screenshots/services.png" alt="project-screenshot" width="500" height="350/">
+<img src="https://raw.githubusercontent.com/kundankrgupta1/NodeExpert/main/src/assets/screenshots/services.png" alt="project-screenshot" width="700" height="350/">
 
-<img src="https://raw.githubusercontent.com/kundankrgupta1/NodeExpert/main/src/assets/screenshots/why.png" alt="project-screenshot" width="500" height="350/">
+<img src="https://raw.githubusercontent.com/kundankrgupta1/NodeExpert/main/src/assets/screenshots/why.png" alt="project-screenshot" width="700" height="350/">
 
-<img src="https://raw.githubusercontent.com/kundankrgupta1/NodeExpert/main/src/assets/screenshots/ourgoals.png" alt="project-screenshot" width="500" height="350/">
+<img src="https://raw.githubusercontent.com/kundankrgupta1/NodeExpert/main/src/assets/screenshots/ourgoals.png" alt="project-screenshot" width="700" height="350/">
 
-<img src="https://raw.githubusercontent.com/kundankrgupta1/NodeExpert/main/src/assets/screenshots/contact.png" alt="project-screenshot" width="500" height="350/">
+<img src="https://raw.githubusercontent.com/kundankrgupta1/NodeExpert/main/src/assets/screenshots/contact.png" alt="project-screenshot" width="700" height="350/">
 
   
   
