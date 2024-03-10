@@ -1,0 +1,81 @@
+.services {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	max-width: 1300px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.services > .services-text {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.services-text > p:nth-child(1) {
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 38px;
+	color: rgb(37, 37, 37);
+}
+
+.services-text > p:nth-child(2) {
+	width: 530px;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #757575;
+	margin-bottom: 20px;
+}
+
+.features {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+
+.features > .featureChild:nth-child(odd),
+.features > .featureChild:nth-child(odd),
+.features > .featureChild:nth-child(even) {
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	border-radius: 10px;
+	padding: 25px;
+	text-align: center;
+	width: fit-content;
+	height: fit-content;
+	max-width: 200px;
+	max-height: 450px;
+}
+
+
+.features > .featureChild:nth-child(even) {
+	background-color: rgb(255, 179, 179, 0.1);
+	margin-top: -26px;
+	max-width: 250px;
+}
+
+.features > .featureChild:nth-child(even) > img {
+	height: 150px;
+
+}
+
+.featureChild > p:nth-child(2) {
+	font-family: "Poppins", sans-serif;
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.featureChild > p:nth-child(3) {
+	font-family: "Roboto", sans-serif;
+	text-transform: capitalize;
+	color: #757575;
+	font-size: 12px;
+	text-align: left;
+}

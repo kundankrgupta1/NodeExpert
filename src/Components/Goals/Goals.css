@@ -1,0 +1,45 @@
+.goals {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.goals > p:nth-child(1) {
+  margin: auto;
+  max-width: 700px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  color: rgb(37, 37, 37);
+  text-transform: capitalize;
+}
+
+.goals > p:nth-child(2) {
+  margin: auto;
+  margin-top: 10px;
+  max-width: 600px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #757575;
+}
+
+.cards,
+.childCard {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #1453ff;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 48px;
+}

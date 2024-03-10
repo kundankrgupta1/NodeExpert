@@ -1,0 +1,146 @@
+.footer {
+  margin-top: 160px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.contactBoard {
+  max-width: 800px;
+  background-color: #333697;
+  color: #fff;
+  padding: 25px 45px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+  position: absolute;
+  top: -80px;
+  left: 24%;
+}
+
+.contactBoardText {
+  flex-basis: 48%;
+}
+
+.contactBoardText > p:nth-child(1) {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.contactBoardText > p:nth-child(2) {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.contactBoard > form {
+  flex-basis: 50%;
+}
+
+.contactBoard > form > span {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.contactBoard > form > .contactBoardInput {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px;
+  max-height: 50px;
+  padding: 10px 5px;
+  justify-content: space-between;
+}
+
+.contactBoardInput > input[type="email"] {
+  border: none;
+  padding: 10px;
+  width: 70%;
+  outline: none;
+  font-size: 12px;
+  background: none;
+}
+
+.footerStart {
+  background-color: #f3f3fc;
+  padding: 6rem 2rem 2rem 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*  */
+.footerStart > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.footerLogo > img {
+  width: 45px;
+}
+.footerLogo > p {
+  font-size: 27px;
+  font-weight: 500;
+  color: #707070;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.socialIcons > li {
+  font-size: 20px;
+  color: #707070;
+  cursor: pointer;
+  border: 1px solid #707070;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerStartContent > p:nth-child(1) {
+  color: black;
+  font-weight: 600;
+}
+
+.footerStartContent > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #707070;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.footerStartContent > ul > li {
+  text-transform: capitalize;
+  list-style: none;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #707070;
+}
+
+.subFooter {
+  color: #707070;
+  font-size: 13px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3fc;
+  font-weight: 500;
+  padding-bottom: 20px;
+}

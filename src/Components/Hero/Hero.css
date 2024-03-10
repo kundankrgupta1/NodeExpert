@@ -1,0 +1,86 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(85, 64, 220, 0.7), rgba(85, 64, 220, 0.7)),
+    url("../../assets/girl-with-book.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 10rem 55rem;
+  border-bottom-left-radius: 120rem 25rem;
+
+}
+
+.insideHero {
+  font-weight: 400;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.column1 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  flex-basis: 55%;
+}
+
+.column1 > p:nth-child(1) {
+  font-size: 40px;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.column1 > p:nth-child(2) {
+  font-weight: 500;
+  color: #dbd8d8;
+  line-height: 25px;
+}
+
+.column1 > .column1Child {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.column1Child > p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.column2 {
+  flex-basis: 50%;
+  background: url("../../assets/transparent.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  padding: 5px;
+  position: relative;
+}
+
+.column2 > img:nth-child(1) {
+  width: 100%;
+  height: 100%;
+}
+
+.column2 > img:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
